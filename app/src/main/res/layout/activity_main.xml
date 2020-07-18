@@ -42,6 +42,7 @@
             android:layout_weight="3">
 
             <ImageButton
+                android:id="@+id/tshirt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -50,6 +51,7 @@
                 android:adjustViewBounds="true"
                 android:paddingLeft="60px"
                 android:paddingRight="60px"
+
             />
 
             <TextView
