@@ -8,6 +8,7 @@
     tools:context=".MainActivity"
     android:background="@android:color/white">
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -26,146 +27,297 @@
 
     </RelativeLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="6"
-        android:paddingTop="120px"
-        android:paddingLeft="80px"
-        android:paddingRight="80px">
-        
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="3">
+        android:layout_height="wrap_content">
 
-            <ImageButton
-                android:id="@+id/tshirt"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="120px">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@null"
-                android:src="@drawable/tshirt"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"
-                android:paddingLeft="60px"
-                android:paddingRight="60px"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:paddingTop="120px"
+                android:paddingLeft="80px"
+                android:paddingRight="80px">
 
-            />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
 
-            <TextView
+                    <ImageButton
+                        android:id="@+id/tshirt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/tshirt"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+
+                    />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="T-Shirt"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/sweater"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Sweater"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:paddingTop="20px"
-                android:text="T-Shirt"
-                android:textSize="20px"
-                app:fontFamily="@font/playfair_display" />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:paddingTop="150px"
+                android:paddingLeft="80px"
+                android:paddingRight="80px">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/jeans"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Jeans"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/sweater"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Sweater"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:paddingTop="150px"
+                android:paddingLeft="80px"
+                android:paddingRight="80px">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/jeans"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Jeans"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/sweater"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Sweater"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:paddingTop="150px"
+                android:paddingLeft="80px"
+                android:paddingRight="80px">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/jeans"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Jeans"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/sweater"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="60px"
+                        android:paddingRight="60px"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingTop="20px"
+                        android:text="Sweater"
+                        android:textSize="20px"
+                        app:fontFamily="@font/playfair_display" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="3">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:src="@drawable/sweater"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"
-                android:paddingLeft="60px"
-                android:paddingRight="60px"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:paddingTop="20px"
-                android:text="Sweater"
-                android:textSize="20px"
-                app:fontFamily="@font/playfair_display" />
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="6"
-        android:paddingTop="150px"
-        android:paddingLeft="80px"
-        android:paddingRight="80px">
-
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="3">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:src="@drawable/jeans"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"
-                android:paddingLeft="60px"
-                android:paddingRight="60px"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:paddingTop="20px"
-                android:text="Jeans"
-                android:textSize="20px"
-                app:fontFamily="@font/playfair_display" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="3">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:src="@drawable/sweater"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"
-                android:paddingLeft="60px"
-                android:paddingRight="60px"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:paddingTop="20px"
-                android:text="Sweater"
-                android:textSize="20px"
-                app:fontFamily="@font/playfair_display" />
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-
+    </ScrollView>
 
 </LinearLayout>

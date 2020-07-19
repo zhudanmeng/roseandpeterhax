@@ -22,7 +22,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".ChooseMaterial" />
-        <activity android:name=".ChooseSize"></activity>
+        <activity android:name=".ChooseSize" />
+        <activity android:name=".DisplayResults"></activity>
     </application>
 
 </manifest>

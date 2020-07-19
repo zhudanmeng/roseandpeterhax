@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         tshirt.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ChooseMaterial.class));
+
+                Intent intent = new Intent(MainActivity.this, ChooseSize.class);
+                intent.putExtra("type", 1);
+                startActivity(intent);
+                //startActivity(new Intent(MainActivity.this, ChooseSize.class));
             }
         });
 
