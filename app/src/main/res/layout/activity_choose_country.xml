@@ -28,7 +28,7 @@
                 android:layout_alignParentTop="true"
                 android:gravity="center_horizontal"
                 android:paddingTop="50px"
-                android:text="Select clothing size"
+                android:text="Select the place of production"
                 android:textSize="38px"
                 app:fontFamily="@font/playfair_display" />
 
@@ -43,19 +43,19 @@
             android:paddingLeft="80px"
             android:paddingRight="80px">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Size:"
-                android:textSize="20px"
-                app:fontFamily="@font/playfair_display"
-                android:gravity="center_vertical" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Continent:"
+                    android:textSize="20px"
+                    app:fontFamily="@font/playfair_display"
+                    android:gravity="center_vertical" />
 
-            <Spinner
-                android:id="@+id/spinnerRee"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"/>
+                <Spinner
+                    android:id="@+id/continent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"/>
 
 
         </LinearLayout>

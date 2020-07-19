@@ -21,8 +21,9 @@
             android:layout_alignParentTop="true"
             android:gravity="center_horizontal"
             android:paddingTop="50px"
-            android:text="What is the type of clothing?"
+            android:text="Select the type of clothing"
             android:textSize="38px"
+            android:paddingBottom="60px"
             app:fontFamily="@font/playfair_display" />
 
     </RelativeLayout>
@@ -42,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="6"
-                android:paddingTop="120px"
+                android:paddingTop="30px"
                 android:paddingLeft="80px"
                 android:paddingRight="80px">
 
@@ -86,6 +87,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
+                        android:id="@+id/sweater"
                         android:src="@drawable/sweater"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
@@ -129,6 +131,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
+                        android:id="@+id/jeans"
                         android:src="@drawable/jeans"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
@@ -157,7 +160,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:src="@drawable/sweater"
+                        android:id="@+id/pants"
+                        android:src="@drawable/pants"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
                         android:paddingLeft="60px"
@@ -169,7 +173,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingTop="20px"
-                        android:text="Sweater"
+                        android:text="Pants"
                         android:textSize="20px"
                         app:fontFamily="@font/playfair_display" />
 
@@ -198,7 +202,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:src="@drawable/jeans"
+                        android:src="@drawable/shorts"
+                        android:id="@+id/shorts"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
                         android:paddingLeft="60px"
@@ -210,7 +215,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingTop="20px"
-                        android:text="Jeans"
+                        android:text="Shorts"
                         android:textSize="20px"
                         app:fontFamily="@font/playfair_display" />
 
@@ -226,7 +231,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:src="@drawable/sweater"
+                        android:src="@drawable/dress"
+                        android:id="@+id/dress"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
                         android:paddingLeft="60px"
@@ -238,7 +244,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingTop="20px"
-                        android:text="Sweater"
+                        android:text="Dress"
                         android:textSize="20px"
                         app:fontFamily="@font/playfair_display" />
 
@@ -267,7 +273,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:src="@drawable/jeans"
+                        android:src="@drawable/jacket"
+                        android:id="@+id/jacket"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
                         android:paddingLeft="60px"
@@ -279,7 +286,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingTop="20px"
-                        android:text="Jeans"
+                        android:text="Jacket"
                         android:textSize="20px"
                         app:fontFamily="@font/playfair_display" />
 
@@ -295,7 +302,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:src="@drawable/sweater"
+                        android:src="@drawable/suit"
+                        android:id="@+id/suit"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true"
                         android:paddingLeft="60px"
@@ -307,7 +315,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingTop="20px"
-                        android:text="Sweater"
+                        android:text="Suit"
                         android:textSize="20px"
                         app:fontFamily="@font/playfair_display" />
 

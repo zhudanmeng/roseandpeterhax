@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ChooseSize"
     android:orientation="vertical"
-    android:gravity="center_vertical"
     android:paddingBottom="20px">
 
     <RelativeLayout
@@ -18,10 +17,260 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:paddingTop="50px"
-            android:text="This item is: "
+            android:text="Sustainability Report"
             android:textSize="38px"
             app:fontFamily="@font/playfair_display"
-            android:paddingBottom="40px"/>
+            android:paddingBottom="90px"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40px"
+        android:paddingLeft="40px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carbon emissions"
+            android:textSize="28px"
+            android:gravity="center_horizontal"
+            app:fontFamily="@font/playfair_display"
+            />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:paddingTop="30px">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Low"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                android:id="@+id/CarbonLow"
+                app:fontFamily="@font/playfair_display"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Medium"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                android:id="@+id/CarbonMedium"
+                app:fontFamily="@font/playfair_display"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="High"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                android:id="@+id/CarbonHigh"
+                app:fontFamily="@font/playfair_display"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40px"
+        android:paddingLeft="40px"
+        android:paddingTop="80px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water usage"
+                android:textSize="28px"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:paddingTop="30px">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Low"
+                android:textSize="32px"
+                android:id="@+id/waterLow"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Medium"
+                android:textSize="32px"
+                android:id="@+id/waterMedium"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="High"
+                android:id="@+id/waterHigh"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40px"
+        android:paddingLeft="40px"
+        android:paddingTop="80px"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biodegradability"
+                android:textSize="28px"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:paddingTop="30px">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Low"
+                android:id="@+id/bioDLow"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Medium"
+                android:id="@+id/bioDMedium"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="High"
+                android:id="@+id/bioDHigh"
+                android:textSize="32px"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="60px"
+        android:paddingLeft="60px"
+        android:paddingTop="80px">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Making this purchase is the equivalent of leaving the light on for 24 hours."
+                android:textStyle="italic"
+                android:textSize="28px"
+                android:id="@+id/textLabel"
+                android:gravity="center_horizontal"
+                app:fontFamily="@font/playfair_display"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="↻"
+            app:fontFamily="@font/playfair_display_bold" />
 
     </RelativeLayout>
 
