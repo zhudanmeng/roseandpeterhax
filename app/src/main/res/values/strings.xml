@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">roseandpeterhax</string>
+    <string-array name="Sizes">
+        <item> Extra Small </item>
+        <item> Small </item>
+        <item> Medium </item>
+        <item> Large </item>
+        <item> Extra Large</item>
+    </string-array>
+
 </resources>
